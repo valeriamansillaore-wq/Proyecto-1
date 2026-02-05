@@ -1,18 +1,25 @@
 body {
-    background-color: maroon;
+    background-color:#073965;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 header{
-    background-color: cornsilk;
+    padding: 40px;
+
+    
 }
 footer{
-    background-color: burlywood;
+    background-color:#3190C5;
 }
 img{
     width: 200px;
     height: 200px;
-    margin-right: 1cm;
-    margin-left: 1cm;
-}
+    margin-right: 40px;
+    margin-left: 45px;
+    align-content: center;
+    border: 5px  white;
+  border-radius: 12px;
+  display:inline-flex;
+  }
 div{
     background-color: mistyrose;
     text-align: center;
@@ -28,7 +35,57 @@ div{
 }
 h1{
     text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: xx-large;
+    background-color: #cadffb;
+   padding: 50px 20px;
+   color:#005187;
 }
 p{
     text-align: center;
+    color: aliceblue;
+}
+h2{
+    color: beige;
+    text-align: center;
+    text-decoration: solid;
+}
+ul{
+    text-align:left;
+    color: #cadffb;
+}
+li{
+    text-align:left;
+}
+h3{
+    text-align: center;
+    color: beige;
+}
+nav{
+    background-color:#016394;
+    color: #005187;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 15px 5px;
+    text-align: center;
+    
+}
+#galería{
+    background-color:#7B9FCF;
+}
+a{
+    color: beige;
+}
+#historia{
+    background-color: #697FBD;
+}
+#discografia{
+text-align: center;
+display:-webkit-box;
+}
+.albumes{
+     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     font-size: x-large;
+     display:inline;
+    color:#005187;
+    background-color: #cadffb;
 }
